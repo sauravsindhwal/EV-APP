@@ -9,21 +9,21 @@ The images and accompanying text automatically change every 3 seconds, providing
 
 <b>2. Interactive Video Element:</b>
 
-A button is included in the hero section that, when clicked, plays a video directly within the section.
+• A button is included in the hero section that, when clicked, plays a video directly within the section.
 
-This feature allows users to watch engaging video content without navigating away from the hero section.
+• This feature allows users to watch engaging video content without navigating away from the hero section.
 
 ### Technical Implementation
 <b>1. Image and Content Rotation:</b>
 
-Implemented using React.js with a state management technique that updates the displayed image and content every 3 seconds.
+• Implemented using React.js with a state management technique that updates the displayed image and content every 3 seconds.
 
-Utilizes setInterval to cycle through an array of images and content.
+• Utilizes setInterval to cycle through an array of images and content.
 
 <b>2. Video Integration:</b>
 
-A video element is embedded in the hero section.
+• A video element is embedded in the hero section.
 
-An onClick event handler is attached to the button, which triggers the video playback.
+• An onClick event handler is attached to the button, which triggers the video playback.
 
-The video is set to autoplay and display in the same area as the rotating images when activated.
+• The video is set to autoplay and display in the same area as the rotating images when activated.
